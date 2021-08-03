@@ -1,0 +1,28 @@
+import random
+
+while True:
+    while True:
+        x=input("type d for play dice")
+        
+        if x==("d"):
+            if (dice==6):
+                dice= random.randit (1 , 6)
+                if (dice==6):
+                    print("dice")
+                    print("nice play agin")
+                    continue
+                
+            else:
+                print ("dice")
+                break
+            
+        else:
+            continue
+    y=input("this round is finished do u waqnt to play agin y or no")
+    if (y=="y"):
+        continue
+    else:
+        break
+            
+            
+
